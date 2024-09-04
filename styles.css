@@ -1,0 +1,66 @@
+body {
+  background-color: black;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#gameSection {
+  visibility: hidden;
+  border: 2px solid white;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+.playBtn {
+  background-color: #ffb02c;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+  padding: 5px 20px;
+  cursor: pointer;
+}
+
+.playBtn:hover {
+  background-color: #f9cc7e;
+}
+
+#replayBtn {
+  margin-bottom: 15px;
+  display: none;
+}
+
+.moves {
+  font-size: 3rem;
+  padding: 10px;
+  border-radius: 50%;
+  margin: 0 10px;
+}
+
+#display {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#scores {
+  display: flex;
+  gap: 50px;
+  font-size: 1.3rem;
+  color: #ffb02c;
+}
+
+.playerMoves {
+  cursor: pointer;
+}
+
+.clicked {
+  background-color: blue;
+  border: 5px solid #ffb02c;
+}
